@@ -12,12 +12,13 @@ function goTest() {
 
 <template>
   <view class="content">
-    <image class="logo" src="/static/logo.png" />
+    <wd-button>Hello</wd-button>
+    <!-- <image class="logo" src="/static/logo.png" />
     <view class="text-area">
       <text class="title">{{ title }}</text>
     </view>
     <view @click="changeTitle">changeTitle</view>
-    <view @click="goTest">测试页</view>
+    <view @click="goTest">测试页</view> -->
   </view>
 </template>
 
